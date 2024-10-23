@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="homepage_container gradient">
+  <div class="homepage_container ">
   <header class="header_nav">
       <nav class="navbar">
         <div class="logo"><p>logo</p></div>
@@ -28,7 +28,7 @@
     </header>
  
     <div class="hero_text">
-      <p> Get your items <br> delivered with just <br>a few clicks!</p>
+      <p> Get your items <br> delivered with just <br>a few clicks</p>
     </div>
     
     <div class="text">
@@ -38,16 +38,12 @@
     <button class="btn">Get Started</button>
 
     <div class="hero-img">
-      <img src="Assets/Images/Streamlined Shipment Services.png" alt="" class="img-hero">
+      <img src="Assets/Images/vecteezy_3d-delivery-man-character-deivering-package-with-a-scooter_36876830.png" alt="" class="img-hero">
     </div>
-
-
-
-
-
-
+  
   </div>
- 
-
+  <!-- <div class="hero-img1">
+      <img src="Assets/Images/vecteezy_maps-crop.png" alt="" class="img-hero1">
+    </div> -->
 </body>
 </html>

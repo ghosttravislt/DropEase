@@ -10,6 +10,7 @@
 
 :root {
   --bodybg: #000;
+  --hero_bg: #7df09fec;
 }
 
 body {
@@ -19,28 +20,10 @@ body {
 .homepage_container {
   /* border: 2px solid red; */
   width: 1352px;
-  height: 550px;
+  height: 600px;
   border-radius: 0px 0px 20px 20px;
-}
-
-.gradient {
-  background-image: linear-gradient(
-    35deg,
-    hsl(240deg 100% 20%) 0%,
-    hsl(281deg 100% 21%) 16%,
-    hsl(304deg 100% 23%) 25%,
-    hsl(319deg 100% 30%) 32%,
-    hsl(329deg 100% 36%) 38%,
-    hsl(336deg 100% 41%) 44%,
-    hsl(346deg 83% 51%) 50%,
-    hsl(3deg 95% 61%) 55%,
-    hsl(17deg 100% 59%) 61%,
-    hsl(30deg 100% 55%) 67%,
-    hsl(40deg 100% 50%) 74%,
-    hsl(48deg 100% 50%) 82%,
-    hsl(55deg 100% 50%) 100%
-  );
-  position: relative;
+  background-color: var(--hero_bg);
+  z-index: -5;
 }
 
 .navbar {
@@ -98,7 +81,7 @@ body {
 
 .hero_text {
   font-size: 5rem;
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: 800;
   color: #fff;
   line-height: 100px;
@@ -107,9 +90,9 @@ body {
 
 .img-hero {
   position: absolute;
-  width: 580px;
-  top: 40px;
-  left: 740px;
+  width: 460px;
+  top: 60px;
+  left: 780px;
 }
 
 .text {
@@ -117,6 +100,7 @@ body {
   margin-left: 40px;
   color: #fff;
   margin-top: 10px;
+  font-family: "poppins", sans-serif;
 }
 
 .btn {
