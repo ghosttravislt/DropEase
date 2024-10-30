@@ -9,21 +9,25 @@
 }
 
 :root {
-  --bodybg: #000;
+  --bodybg1: #ffffffd6;
+  --bodybg: #dcffcfd6;
   --hero_bg: #7df09fec;
+  --light_text: #fff;
+  --dark_text: #0b0b0b;
 }
 
 body {
-  background-color: var(--bodybg);
+  background-color: var(--bodybg1);
 }
 
 .homepage_container {
   /* border: 2px solid red; */
-  width: 1352px;
+  width: 1335px;
   height: 600px;
   border-radius: 0px 0px 20px 20px;
   background-color: var(--hero_bg);
   z-index: -5;
+  /* border: 2px solid red; */
 }
 
 .navbar {
@@ -92,7 +96,7 @@ body {
   position: absolute;
   width: 460px;
   top: 60px;
-  left: 780px;
+  left: 790px;
 }
 
 .text {
@@ -111,4 +115,70 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 0.95rem;
+}
+
+.How-it-works-section {
+  height: 900px;
+  /* border: 2px solid yellow; */
+  margin-top: 140px;
+}
+
+.How-it-works-title {
+  color: var(--dark_text);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.description-text {
+  color: #b7b6b6;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* styling illustration section */
+.taking-picture {
+  height: 300px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.location {
+  height: 300px;
+  width: 260px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.rider {
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.number {
+  color: #b7b6b6;
+  font-size: 3.4rem;
+  font-weight: 800;
+  padding-right: 14px;
+}
+
+.steps {
+  color: var(--dark_text);
+  font-size: 2rem;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.steps-info {
+  color: #b7b6b6;
+  width: 35ch;
+}
+
+.illustrations-container {
+  padding-left: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
