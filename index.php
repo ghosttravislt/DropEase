@@ -122,5 +122,19 @@
                       <button class="sign-up-now">Sign Up Now</button>
                   </div>
             </section>
+
+            <!-- customer review section  -->
+
+            <section class="customer-review-container">
+                <div class="comment-review">
+                    <p class="comment-title">Trusted influencer for your pickup and deliveries</p>
+                     <p class="comment-text">Your trusted influencer for all your pickup and delivery needs! With a keen focus on reliability, transparency, and efficiency, we make sure your items are handled with the utmost care, every step of the way.</p> 
+
+                     <button class="get-started"> Get Started</button>
+
+                </div>
+
+                  <img src="Assets/Images/smilling man delivery.png" alt="" class="review-image">
+            </section>
 </body>
 </html>
