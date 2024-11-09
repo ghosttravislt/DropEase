@@ -123,18 +123,45 @@
                   </div>
             </section>
 
-            <!-- customer review section  -->
+             <!-- customer motivation section -->
 
-            <section class="customer-review-container">
-                <div class="comment-review">
-                    <p class="comment-title">Trusted influencer for your pickup and deliveries</p>
-                     <p class="comment-text">Your trusted influencer for all your pickup and delivery needs! With a keen focus on reliability, transparency, and efficiency, we make sure your items are handled with the utmost care, every step of the way.</p> 
+             <section class="customer_motivation">
+                 <p class="customer-motivation-title">
+                 ENSURE YOUR PICK UP AND DELIVERY IS WORTHWHILE
+                 </p>
+              
+                 <div class="customer-image-illustration-container">
+                    <div class="fist-image-illustration">
+                       <div class="illustration-card1">
+                           
+                       </div>
+                         <img src="Assets/Images//woman-taking-photos-her-business.jpg" alt="" class="first-image">
+                    </div>
 
-                     <button class="get-started"> Get Started</button>
+                    <div class="second-image-illsutration">
+                      <img src="Assets/Images//woman taking delivery.png" alt="" class="second-image">
+                    </div>
 
-                </div>
 
-                  <img src="Assets/Images/smilling man delivery.png" alt="" class="review-image">
-            </section>
+                    <div class="fist-image-illustration">
+                      <img src="Assets/Images//freepik-export-20241109021911Z7NW.png" alt="" class="third-image">
+                      <div class="illustration-card">
+                           
+                      </div>
+                    </div>
+
+
+
+                 </div>
+
+                    
+
+
+
+             </section>
+
+             
+
+          
 </body>
 </html>
