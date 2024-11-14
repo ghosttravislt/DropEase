@@ -159,7 +159,53 @@
 
 
              </section>
+   
 
+             <!-- customer Assurance section -->
+
+             <section class="customer-assurance-section-container">
+
+              <div class="customer-assurance-container">
+                 <div class="first-comment-container">
+                   <div class="first-comment-box">
+                           first
+                   </div>
+                    <div class="first-1-comment-box">
+                             second
+                    </div>
+                 </div>
+
+
+
+                 <div class="second-comment-container">
+                   <div class="second-comment-box">
+                           third
+                   </div>
+                    <div class="second-2-comment-box">
+                             fourth
+                    </div>
+                 </div>
+
+
+
+                 <div class="third-comment-container">
+                   <div class="second-comment-box">
+                           fifth
+                   </div>
+                    <div class="second-2-comment-box">
+                             sith
+                    </div>
+                 </div>
+
+
+
+              </div>
+
+               
+
+
+
+             </section>
              
 
           

@@ -481,3 +481,65 @@ body {
   border-radius: 10px;
   margin-top: 10px;
 }
+
+/* styling the customer assurance section */
+
+.customer-assurance-section-container {
+  height: 700px;
+  /* border: 2px solid red; */
+}
+
+.customer-assurance-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px;
+}
+
+.first-comment-box {
+  width: 310px;
+  height: 400px;
+  border-radius: 10px;
+  background: var(--light_text);
+  /* margin-left: 100px; */
+  /* margin-top: 60px; */
+  border: 1px solid #d7d2d2;
+  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
+    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+}
+.first-1-comment-box {
+  width: 310px;
+  height: 180px;
+  border-radius: 10px;
+  background: var(--light_text);
+  /* margin-left: 100px; */
+  margin-top: 30px;
+  border: 1px solid #d7d2d2;
+  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
+    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+}
+
+/* styling the second comment box */
+
+.second-comment-box {
+  width: 310px;
+  height: 180px;
+  border-radius: 10px;
+  background: var(--light_text);
+  /* margin-left: 50px; */
+  /* margin-top: 60px; */
+  border: 1px solid #d7d2d2;
+  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
+    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+}
+
+.second-2-comment-box {
+  width: 310px;
+  height: 400px;
+  border-radius: 10px;
+  background: var(--light_text);
+  /* margin-left: 50px; */
+  margin-top: 30px;
+  border: 1px solid #d7d2d2;
+  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
+    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+}
