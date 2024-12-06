@@ -470,6 +470,7 @@ body {
 .second-image {
   width: 390px;
   border-radius: 10px;
+  position: absolute;
 }
 
 /* styling third image */
@@ -482,64 +483,173 @@ body {
   margin-top: 10px;
 }
 
-/* styling the customer assurance section */
+/* styling overlay text  */
 
-.customer-assurance-section-container {
-  height: 700px;
+.overlay-text {
+  background-color: #00000044;
+  height: 586px;
+  width: 390px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.upper-text {
+  color: #fff;
+  font-size: 2.5rem;
+  width: 10ch;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+  /* font-family: "Bebas Neue", sans-serif; */
+}
+
+.lower-text {
+  margin-top: 300px;
+  width: 35ch;
+  padding-left: 20px;
+  color: #fff;
+}
+.lower-text2 {
+  font-size: 0.75rem;
+  width: 50ch;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #ffffff97;
+}
+
+/* styling  illustration card text */
+
+.card1-text {
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.percentage-text {
+  font-size: 3.2rem;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.percentage-text2 {
+  font-size: 2.5rem;
+  width: 10ch;
+  padding-left: 20px;
+}
+
+.card2-text {
+  padding: 20px;
+}
+
+/* styling the service sellectio container  */
+
+.service-sellection-container {
+  margin-top: 100px;
   /* border: 2px solid red; */
-}
-
-.customer-assurance-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 100px;
-}
-
-.first-comment-box {
-  width: 310px;
   height: 400px;
-  border-radius: 10px;
-  background: var(--light_text);
-  /* margin-left: 100px; */
-  /* margin-top: 60px; */
-  border: 1px solid #d7d2d2;
-  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
-    0 6px 20px 0 rgba(57, 56, 56, 0.387);
 }
-.first-1-comment-box {
-  width: 310px;
-  height: 180px;
-  border-radius: 10px;
-  background: var(--light_text);
-  /* margin-left: 100px; */
+
+.service-sellection-menu {
+  height: 50px;
+  width: 490px;
+  margin-left: 420px;
   margin-top: 30px;
-  border: 1px solid #d7d2d2;
-  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
-    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+  border-radius: 20px;
+  background-color: #0000002b;
 }
 
-/* styling the second comment box */
-
-.second-comment-box {
-  width: 310px;
-  height: 180px;
-  border-radius: 10px;
-  background: var(--light_text);
-  /* margin-left: 50px; */
-  /* margin-top: 60px; */
-  border: 1px solid #d7d2d2;
-  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
-    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+.btn4 {
+  margin-top: 7px;
+  margin-left: 50px;
+  height: 35px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--major-button-color1);
+  /* color: var(--light_text); */
 }
 
-.second-2-comment-box {
-  width: 310px;
-  height: 400px;
-  border-radius: 10px;
-  background: var(--light_text);
-  /* margin-left: 50px; */
+.btn5 {
+  margin-top: 7px;
+  margin-left: 60px;
+  height: 35px;
+  width: 180px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* styling the selection-display-container */
+
+.selection-display-container {
+  margin-top: 60px;
+  margin-left: 120px;
+  height: 460px;
+  width: 1100px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: var(--major-button-color1);
+  display: flex;
+  position: relative;
+}
+
+/* styling selection-display-text */
+
+.display-text {
+  padding-top: 60px;
+  padding-left: 100px;
+  font-size: 3rem;
+  width: 20ch;
+  font-weight: 600;
+  color: var(--light_text);
+}
+
+.btn6 {
+  margin-left: 100px;
   margin-top: 30px;
-  border: 1px solid #d7d2d2;
-  box-shadow: 0 2px 8px 0 rgba(61, 59, 59, 0.2),
-    0 6px 20px 0 rgba(57, 56, 56, 0.387);
+  width: 150px;
+  height: 37px;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+}
+
+.btn6:hover {
+  color: #fff;
+}
+
+.btn6::before {
+  content: "";
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  /* color: #fff; */
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  position: absolute;
+  z-index: -1;
+  transition: 0.8s;
+  /* isolation: isolate; */
+}
+
+.btn-hovered::before {
+  left: 150px;
+  border-radius: 20px 0 0 20px;
+}
+
+.btn-hovered:hover::before {
+  left: 0;
+}
+
+.rides-image {
+  top: 0;
+  left: 400px;
+  position: absolute;
+  width: 700px;
 }

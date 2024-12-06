@@ -133,20 +133,28 @@
                  <div class="customer-image-illustration-container">
                     <div class="fist-image-illustration">
                        <div class="illustration-card1">
-                           
+                          <p class="card1-text">Regularly reveiwing and analyzing your expenses?  This helps</p>  
+                          <p class="percentage-text">70% of households</p>
                        </div>
                          <img src="Assets/Images//woman-taking-photos-her-business.jpg" alt="" class="first-image">
                     </div>
 
                     <div class="second-image-illsutration">
                       <img src="Assets/Images//woman taking delivery.png" alt="" class="second-image">
+                      <div class="overlay-text">
+                        <p class="upper-text">GH₵ 2000+ Saved</p>
+                         
+                        <p class="lower-text">of income on paying to delivery agencies by 10%</p>
+                        <p class="lower-text2">Switch to Dropease and save! We reduce your delivery payments by 10% compared to other agencies. Enjoy reliable, efficient service at a better price. Make the smart move today!</p>
+                        </div>
                     </div>
 
 
                     <div class="fist-image-illustration">
-                      <img src="Assets/Images//freepik-export-20241109021911Z7NW.png" alt="" class="third-image">
+                      <img src="Assets/Images//portrait-cool-man-with-sunglasses-dancing.jpg" alt="" class="third-image">
                       <div class="illustration-card">
-                           
+                        <p class="percentage-text2">20% Discount</p>   
+                        <p class="card2-text"> for newly registered account  for whole six months  hop on the band wagon and enjoy</p>   
                       </div>
                     </div>
 
@@ -161,53 +169,31 @@
              </section>
    
 
-             <!-- customer Assurance section -->
-
-             <section class="customer-assurance-section-container">
-
-              <div class="customer-assurance-container">
-                 <div class="first-comment-container">
-                   <div class="first-comment-box">
-                           first
-                   </div>
-                    <div class="first-1-comment-box">
-                             second
-                    </div>
-                 </div>
-
-
-
-                 <div class="second-comment-container">
-                   <div class="second-comment-box">
-                           third
-                   </div>
-                    <div class="second-2-comment-box">
-                             fourth
-                    </div>
-                 </div>
-
-
-
-                 <div class="third-comment-container">
-                   <div class="second-comment-box">
-                           fifth
-                   </div>
-                    <div class="second-2-comment-box">
-                             sith
-                    </div>
-                 </div>
-
-
-
-              </div>
-
-               
-
-
-
-             </section>
+           <!-- Service sellection section -->
              
+            <section class="service-sellection-container">
+                <div class="service-sellection-menu">
+                   <button class="btn4"> Register for rides</button>
+                   <button class="btn5">Register for deliveries </button>
+                </div>
 
+            <div class="selection-display-container">
+                  <div class="selection-display-text">
+                     <p class="display-text">
+                     Make rapid request for rides with dropease
+                     </p>
+                     <button class="btn6 btn-hovered">Register Now</button>
+                  </div>
+
+                     <div class="rides-display-image">
+                      <img src="Assets/Images/laptop-image-Photoroom.png" alt="image with laptop" class="rides-image">
+                     </div>
+            </div>
+                 
+            </section>
+             
+      
+            
           
 </body>
 </html>
