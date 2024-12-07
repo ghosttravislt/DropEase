@@ -187,6 +187,7 @@
 
                      <div class="rides-display-image">
                       <img src="Assets/Images/laptop-image-Photoroom.png" alt="image with laptop" class="rides-image">
+                      <img src="Assets/Images/selected-mobile2.png" alt="image with laptop" class="rides-image1">
                      </div>
             </div>
                  
@@ -194,6 +195,6 @@
              
       
             
-          
+     <script src="Assets/scripts//app.js"></script>      
 </body>
 </html>
